@@ -546,145 +546,206 @@ real-time streaming.
 **Key Facts:** Integrates with AD-aware workloads; supports single sign-on (SSO).
 **Use Case:** Integrating AWS resources with existing Active Directory environments.
 
-AWS Firewall Manager
+# AWS Firewall Manager
 
-Definition: Centralized management of AWS WAF rules across multiple accounts and resources.
-Key Facts: Automates firewall rule management; integrates with AWS Organizations.
-Use Case: Implementing consistent firewall rules across an organization's AWS environment.
+**Definition:** Centralized management of AWS WAF rules across multiple accounts and resources.
 
-Amazon GuardDuty
+**Key Facts:** 
+- Automates firewall rule management
+- Integrates with AWS Organizations.
 
-Definition: A threat detection service that continuously monitors for malicious activity.
-Key Facts: Uses machine learning, anomaly detection, and integrated threat intelligence.
-Use Case: Detecting unexpected and potentially unauthorized activity in AWS accounts.
+**Use Case:** Implementing consistent firewall rules across an organization's AWS environment.
 
-AWS IAM Identity Center (AWS Single Sign-On)
+# Amazon GuardDuty
 
-Definition: Centrally manage single sign-on (SSO) access to multiple AWS accounts and business applications.
-Key Facts: Integrates with existing identity sources; supports SAML 2.0.
-Use Case: Streamlining user access to multiple AWS accounts and applications.
+**Definition:** A threat detection service that continuously monitors for malicious activity.
 
-AWS Identity and Access Management (IAM)
+**Key Facts:** 
+- Uses machine learning, anomaly detection, and integrated threat intelligence.
 
-Definition: Manages access to AWS services and resources.
-Key Facts: Supports identity federation; fine-grained access controls.
-Use Case: Controlling user and group access to AWS resources.
+**Use Case:** Detecting unexpected and potentially unauthorized activity in AWS accounts.
 
-Amazon Inspector
+# AWS IAM Identity Center (AWS Single Sign-On)
 
-Definition: Automated security assessment service to improve the security and compliance of applications.
-Key Facts: Assesses applications for vulnerabilities and deviations from best practices.
-Use Case: Running automated security assessments on EC2 instances.
+**Definition:** Centrally manage single sign-on (SSO) access to multiple AWS accounts and business applications.
 
+**Key Facts:** 
+- Integrates with existing identity sources
+- Supports SAML 2.0.
 
-AWS Key Management Service (AWS KMS)
+**Use Case:** Streamlining user access to multiple AWS accounts and applications.
 
-Definition: Managed service to create and control cryptographic keys.
-Key Facts: Integrates with other AWS services; supports key rotation and management.
-Use Case: Encrypting data stored in S3 buckets using managed keys.
+# AWS Identity and Access Management (IAM)
 
-Amazon Macie
+**Definition:** Manages access to AWS services and resources.
 
-Definition: Machine learning-powered security service to discover, classify, and protect sensitive data.
-Key Facts: Automatically identifies and classifies sensitive data in AWS; supports GDPR compliance.
-Use Case: Protecting sensitive customer data stored in S3.
+**Key Facts:** 
+- Supports identity federation
+- Fine-grained access controls.
 
-AWS Network Firewall
+**Use Case:** Controlling user and group access to AWS resources.
 
-Definition: Managed firewall service for VPC.
-Key Facts: Provides flexible rules for traffic inspection, intrusion detection, and prevention.
-Use Case: Implementing network-level security controls for inbound and outbound traffic in a VPC.
+# Amazon Inspector
 
-AWS Resource Access Manager (AWS RAM)
+**Definition:** Automated security assessment service to improve the security and compliance of applications.
 
-Definition: Service to share AWS resources across accounts.
-Key Facts: Supports sharing of Subnets, Transit Gateways, etc.; integrates with AWS Organizations.
-Use Case: Sharing Subnets with other AWS accounts within an organization.
+**Key Facts:** 
+- Assesses applications for vulnerabilities and deviations from best practices.
 
-AWS Secrets Manager
+**Use Case:** Running automated security assessments on EC2 instances.
 
-Definition: Manages, retrieves, and rotates database credentials, API keys, and other secrets.
-Key Facts: Integrates with RDS, Redshift, and DocumentDB; supports secret rotation.
-Use Case: Managing database credentials securely and automating their rotation.
+# AWS Key Management Service (AWS KMS)
 
-AWS Security Hub
+**Definition:** Managed service to create and control cryptographic keys.
 
-Definition: Comprehensive view of security alerts and security posture across AWS accounts.
-Key Facts: Aggregates security findings from AWS services and partner tools.
-Use Case: Centralizing and prioritizing security alerts and compliance status.
+**Key Facts:** 
+- Integrates with other AWS services
+- Supports key rotation and management.
 
-AWS Shield
+**Use Case:** Encrypting data stored in S3 buckets using managed keys.
 
-Definition: Managed Distributed Denial of Service (DDoS) protection service.
-Key Facts: AWS Shield Standard and AWS Shield Advanced options; integrates with CloudFront and Route 53.
-Use Case: Protecting websites and applications against DDoS attacks.
+# Amazon Macie
 
-AWS WAF
+**Definition:** Machine learning-powered security service to discover, classify, and protect sensitive data.
 
-Definition: Web application firewall that helps protect web applications from common web exploits.
-Key Facts: Offers rules to control bot traffic and block common attack patterns.
-Use Case: Protecting a web application from SQL injection and Cross-Site Scripting (XSS) attacks.
+**Key Facts:** 
+- Automatically identifies and classifies sensitive data in AWS
+- Supports GDPR compliance.
 
-### Serverless Services
+**Use Case:** Protecting sensitive customer data stored in S3.
 
-AWS AppSync
+# AWS Network Firewall
 
-Definition: A managed service that uses GraphQL to make it easy to build collaborative mobile and web applications.
-Key Facts: Real-time data synchronization; offline data access.
-Use Case: Building a real-time chat application that syncs across devices.
+**Definition:** Managed firewall service for VPC.
 
-AWS Fargate
+**Key Facts:** 
+- Provides flexible rules for traffic inspection, intrusion detection, and prevention.
 
-Definition: A serverless compute engine for containers that works with both Amazon Elastic Container Service (ECS) and Amazon Elastic Kubernetes Service (EKS).
-Key Facts: Eliminates the need to manage servers; scales containers.
-Use Case: Running containerized applications without managing underlying infrastructure.
+**Use Case:** Implementing network-level security controls for inbound and outbound traffic in a VPC.
 
-AWS Lambda
+# AWS Resource Access Manager (AWS RAM)
 
-Definition: A compute service that lets you run code without provisioning or managing servers.
-Key Facts: Automatic scaling; pay only for the compute time you consume.
-Use Case: Automatically resizing images uploaded to S3.
+**Definition:** Service to share AWS resources across accounts.
 
-### Storage Services
+**Key Facts:** 
+- Supports sharing of Subnets, Transit Gateways, etc.
+- Integrates with AWS Organizations.
 
-AWS Backup
+**Use Case:** Sharing Subnets with other AWS accounts within an organization.
 
-Definition: A centralized backup service that makes it easier to manage and automate backups across AWS services.
-Key Facts: Supports EBS, RDS, DynamoDB, EFS, and Storage Gateway.
-Use Case: Automating and centralizing backup of AWS cloud resources.
+# AWS Secrets Manager
 
-Amazon Elastic Block Store (Amazon EBS)
+**Definition:** Manages, retrieves, and rotates database credentials, API keys, and other secrets.
 
-Definition: Provides block-level storage volumes for use with EC2 instances.
-Key Facts: High-performance volumes; snapshots for backup.
-Use Case: Providing persistent block storage for an EC2 instance running a database.
+**Key Facts:** 
+- Integrates with RDS, Redshift, and DocumentDB
+- Supports secret rotation.
 
-Amazon Elastic File System (Amazon EFS)
+**Use Case:** Managing database credentials securely and automating their rotation.
 
-Definition: A scalable, elastic, cloud-native file system for Linux-based workloads.
-Key Facts: Can be used with AWS Cloud services and on-premises resources; scales automatically.
-Use Case: Storing and sharing files across multiple EC2 instances.
+# AWS Security Hub
 
-Amazon FSx
+**Definition:** Comprehensive view of security alerts and security posture across AWS accounts.
 
-Definition: Provides fully managed third-party file systems with native compatibility and feature sets.
-Key Facts: Includes FSx for Windows File Server and FSx for Lustre.
-Use Case: Running a high-performance computing (HPC) workload that requires fast data processing.
+**Key Facts:** 
+- Aggregates security findings from AWS services and partner tools.
+**Use Case:** Centralizing and prioritizing security alerts and compliance status.
 
-Amazon S3
+# AWS Shield
 
-Definition: Object storage built to store and retrieve any amount of data from anywhere.
-Key Facts: Scalable; data availability; secure; supports web-based applications.
-Use Case: Hosting static website content and media files.
+**Definition:** Managed Distributed Denial of Service (DDoS) protection service.
+**Key Facts:** 
+- AWS Shield Standard and AWS Shield Advanced options
+- Integrates with CloudFront and Route 53.
+**Use Case:** Protecting websites and applications against DDoS attacks.
 
-Amazon S3 Glacier
+# AWS WAF
 
-Definition: A secure, durable, and low-cost storage service for data archiving and long-term backup.
-Key Facts: Offers retrieval options from minutes to hours; highly durable.
-Use Case: Archiving old but important data at low cost.
+**Definition:** Web application firewall that helps protect web applications from common web exploits.
+**Key Facts:** 
+- Offers rules to control bot traffic and block common attack patterns.
+**Use Case:** Protecting a web application from SQL injection and Cross-Site Scripting (XSS) attacks.
 
-AWS Storage Gateway
+## Serverless Services
 
-Definition: A hybrid cloud storage service that provides on-premises access to virtually unlimited cloud storage.
-Key Facts: Supports file, volume, and tape storage interfaces; integrates with S3.
-Use Case: External file transfer
+# AWS AppSync
+
+**Definition:** A managed service that uses GraphQL to make it easy to build collaborative mobile and web applications.
+**Key Facts:** 
+- Real-time data synchronization
+- Offline data access.
+**Use Case:** Building a real-time chat application that syncs across devices.
+
+# AWS Fargate
+
+**Definition:** A serverless compute engine for containers that works with both Amazon Elastic Container Service (ECS) and Amazon Elastic Kubernetes Service (EKS).
+**Key Facts:** 
+- Eliminates the need to manage servers
+- Scales containers.
+**Use Case:** Running containerized applications without managing underlying infrastructure.
+
+# AWS Lambda
+
+**Definition:** A compute service that lets you run code without provisioning or managing servers.
+**Key Facts:** 
+- Automatic scaling
+- Pay only for the compute time you consume.
+**Use Case:** Automatically resizing images uploaded to S3.
+
+## Storage Services
+
+# AWS Backup
+
+**Definition:** A centralized backup service that makes it easier to manage and automate backups across AWS services.
+**Key Facts:** 
+- Supports EBS, RDS, DynamoDB, EFS, and Storage Gateway.
+**Use Case:** Automating and centralizing backup of AWS cloud resources.
+
+# Amazon Elastic Block Store (Amazon EBS)
+
+**Definition:** Provides block-level storage volumes for use with EC2 instances.
+**Key Facts:** 
+- High-performance volumes
+- Snapshots for backup.
+**Use Case:** Providing persistent block storage for an EC2 instance running a database.
+
+# Amazon Elastic File System (Amazon EFS)
+
+**Definition:** A scalable, elastic, cloud-native file system for Linux-based workloads.
+**Key Facts:** 
+- Can be used with AWS Cloud services and on-premises resources
+- Scales automatically.
+**Use Case:** Storing and sharing files across multiple EC2 instances.
+
+# Amazon FSx
+
+**Definition:** Provides fully managed third-party file systems with native compatibility and feature sets.
+**Key Facts:** 
+- Includes FSx for Windows File Server and FSx for Lustre.
+**Use Case:** Running a high-performance computing (HPC) workload that requires fast data processing.
+
+# Amazon S3
+
+**Definition:** Object storage built to store and retrieve any amount of data from anywhere.
+**Key Facts:** 
+- Scalable
+- Data availability
+- Secure
+- Supports web-based applications.
+**Use Case:** Hosting static website content and media files.
+
+# Amazon S3 Glacier
+
+**Definition:** A secure, durable, and low-cost storage service for data archiving and long-term backup.
+**Key Facts:** 
+- Offers retrieval options from minutes to hours
+- Highly durable.
+**Use Case:** Archiving old but important data at low cost.
+
+# AWS Storage Gateway
+
+**Definition:** A hybrid cloud storage service that provides on-premises access to virtually unlimited cloud storage.
+**Key Facts:** 
+- Supports file, volume, and tape storage interfaces
+- Integrates with S3.
+**Use Case:** External file transfer
