@@ -1,82 +1,82 @@
 ### Analytics
 
-1. **Amazon Athena**: 
+**Amazon Athena**: 
    - **Definition**: A serverless interactive query service that makes it easy to analyze data in Amazon S3 using standard SQL.
    - **Use Case**: Athena can be used for quick ad-hoc querying of data stored in S3, such as analyzing web logs for website traffic patterns without the need for complex ETL processes.
 
-2. **AWS Data Exchange**: 
+**AWS Data Exchange**: 
    - **Definition**: A service that makes it easy to find, subscribe to, and use third-party data in the cloud.
    - **Use Case**: Companies can use AWS Data Exchange to access and integrate third-party financial data into their own analytics to enhance market analysis.
 
-3. **AWS Data Pipeline**:
+**AWS Data Pipeline**:
    - **Definition**: A web service for reliably processing and moving data between different AWS compute and storage services, as well as on-premises data sources.
    - **Use Case**: Automating the movement and transformation of data for regular reporting – for instance, daily sales data from various sources to a central analytics platform.
 
-4. **Amazon EMR (Elastic MapReduce)**:
+**Amazon EMR (Elastic MapReduce)**:
    - **Definition**: A cloud-native big data platform, allowing processing of vast amounts of data quickly and cost-effectively across resizable clusters of Amazon EC2 instances.
    - **Use Case**: Running big data frameworks like Apache Spark or Hadoop to analyze and process large datasets, such as genomic data for scientific research.
 
-5. **AWS Glue**:
+**AWS Glue**:
    - **Definition**: A fully managed extract, transform, and load (ETL) service that makes it simple and cost-effective to categorize, clean, enrich, and move data.
    - **Use Case**: Automatically discovering, cataloging, and preparing data for analytics, such as integrating data from various databases and S3 buckets for a unified data warehouse.
 
-6. **Amazon Kinesis**:
+**Amazon Kinesis**:
    - **Definition**: A platform for streaming data on AWS, offering powerful services to make it easy to load and analyze streaming data, and also providing the ability to build custom streaming data applications.
    - **Use Case**: Real-time processing of streaming data, such as monitoring application logs, website clickstreams, or IoT device telemetry.
 
-7. **AWS Lake Formation**:
+**AWS Lake Formation**:
    - **Definition**: A service that makes it easy to set up a secure data lake in days, managing data access and movement.
    - **Use Case**: Building, securing, and managing a data lake, for instance, to centralize data from various sources and make it available for diverse analytics and machine learning.
 
-8. **Amazon Managed Streaming for Apache Kafka (Amazon MSK)**:
+**Amazon Managed Streaming for Apache Kafka (Amazon MSK)**:
    - **Definition**: A fully managed service that makes it easy to build and run applications that use Apache Kafka to process streaming data.
    - **Use Case**: Running high-throughput message brokers for applications like event-driven microservices, or log aggregation systems.
 
-9. **Amazon OpenSearch Service**:
+**Amazon OpenSearch Service**:
    - **Definition**: An AWS service for running OpenSearch (formerly known as Elasticsearch) to easily deploy, operate, and scale OpenSearch clusters in the AWS Cloud.
    - **Use Case**: Supporting complex search capabilities on large volumes of data, like log analytics, real-time application monitoring, and clickstream analytics.
 
-10. **Amazon QuickSight**:
+**Amazon QuickSight**:
     - **Definition**: A fast, cloud-powered business intelligence service that makes it easy to deliver insights to everyone in your organization.
     - **Use Case**: Building visualizations and dashboards to analyze data across your organization, for example, sales performance or operational health.
 
-11. **Amazon Redshift**:
+**Amazon Redshift**:
     - **Definition**: A fully managed, petabyte-scale data warehouse service in the cloud, allowing you to efficiently analyze all your data using your existing business intelligence tools.
     - **Use Case**: Conducting complex queries and analytics on large datasets, like historical transaction data for trend analysis and forecasting.
 
 ### Applicaiton Integration
 
-1. **Amazon AppFlow**
+**Amazon AppFlow**
    - **Definition**: A fully managed integration service that enables secure, automated data flows between AWS services and SaaS applications.
    - **Use Case**: Automating data transfer between Salesforce and Amazon S3 for regular data backup or analytics.
    - **Fact**: Supports many SaaS applications and AWS services, provides data transformation capabilities, and allows for scheduling or event-triggered flows.
 
-2. **AWS AppSync**
+**AWS AppSync**
    - **Definition**: A managed GraphQL service for building APIs, enabling real-time updates, offline programming, and data synchronization.
    - **Use Case**: Building a real-time collaborative application, like a chat app, where the data (messages, user status) needs to be synchronized across various clients.
    - **Fact**: Integrates with AWS Lambda, Amazon DynamoDB, and Amazon RDS, supporting complex data retrieval with GraphQL.
 
-3. **Amazon EventBridge**
+**Amazon EventBridge**
    - **Definition**: A serverless event bus service that connects application data from your own apps, SaaS, and AWS services.
    - **Use Case**: Creating an event-driven architecture, like triggering a Lambda function for image processing when new images are uploaded to S3.
    - **Fact**: Offers scalable event handling without managing underlying infrastructure and supports event filtering and pattern matching.
 
-4. **Amazon MQ**
+**Amazon MQ**
    - **Definition**: A managed message broker service for Apache ActiveMQ and RabbitMQ.
    - **Use Case**: Migrating existing message brokers to the cloud with minimal code changes in legacy applications.
    - **Fact**: Provides high availability, message durability, and security features, suitable for traditional applications requiring a message broker.
 
-5. **Amazon Simple Notification Service (Amazon SNS)**
+**Amazon Simple Notification Service (Amazon SNS)**
    - **Definition**: A fully managed messaging service for both application-to-application (A2A) and application-to-person (A2P) communication.
    - **Use Case**: Sending notifications to end-users via email, SMS, or mobile push notifications, like alerting customers about order status.
    - **Fact**: Supports pub/sub messaging patterns, allowing decoupling of microservices, distributed systems, and serverless applications.
 
-6. **Amazon Simple Queue Service (Amazon SQS)**
+**Amazon Simple Queue Service (Amazon SQS)**
    - **Definition**: A fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications.
    - **Use Case**: Managing a high volume of messages from multiple sources and ensuring their processing in an orderly fashion.
    - **Fact**: Offers two types of message queues: Standard (high-throughput, best-effort ordering) and FIFO (first-in-first-out delivery and exactly-once processing).
 
-7. **AWS Step Functions**
+**AWS Step Functions**
    - **Definition**: A service to coordinate multiple AWS services into serverless workflows.
    - **Use Case**: Orchestrating complex workflows, such as an order fulfillment process that involves multiple steps like payment processing, inventory check, and shipping.
    - **Fact**: Allows visual workflow management, supports error handling, conditional branching, and integrates with various AWS services.
