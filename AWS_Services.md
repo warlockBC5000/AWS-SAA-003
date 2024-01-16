@@ -546,7 +546,7 @@ real-time streaming.
 **Key Facts:** Integrates with AD-aware workloads; supports single sign-on (SSO).
 **Use Case:** Integrating AWS resources with existing Active Directory environments.
 
-# AWS Firewall Manager
+### AWS Firewall Manager
 
 **Definition:** Centralized management of AWS WAF rules across multiple accounts and resources.
 
@@ -556,7 +556,7 @@ real-time streaming.
 
 **Use Case:** Implementing consistent firewall rules across an organization's AWS environment.
 
-# Amazon GuardDuty
+### Amazon GuardDuty
 
 **Definition:** A threat detection service that continuously monitors for malicious activity.
 
@@ -565,7 +565,7 @@ real-time streaming.
 
 **Use Case:** Detecting unexpected and potentially unauthorized activity in AWS accounts.
 
-# AWS IAM Identity Center (AWS Single Sign-On)
+### AWS IAM Identity Center (AWS Single Sign-On)
 
 **Definition:** Centrally manage single sign-on (SSO) access to multiple AWS accounts and business applications.
 
@@ -575,7 +575,7 @@ real-time streaming.
 
 **Use Case:** Streamlining user access to multiple AWS accounts and applications.
 
-# AWS Identity and Access Management (IAM)
+### AWS Identity and Access Management (IAM)
 
 **Definition:** Manages access to AWS services and resources.
 
@@ -585,7 +585,7 @@ real-time streaming.
 
 **Use Case:** Controlling user and group access to AWS resources.
 
-# Amazon Inspector
+### Amazon Inspector
 
 **Definition:** Automated security assessment service to improve the security and compliance of applications.
 
@@ -594,7 +594,7 @@ real-time streaming.
 
 **Use Case:** Running automated security assessments on EC2 instances.
 
-# AWS Key Management Service (AWS KMS)
+### AWS Key Management Service (AWS KMS)
 
 **Definition:** Managed service to create and control cryptographic keys.
 
@@ -604,7 +604,7 @@ real-time streaming.
 
 **Use Case:** Encrypting data stored in S3 buckets using managed keys.
 
-# Amazon Macie
+### Amazon Macie
 
 **Definition:** Machine learning-powered security service to discover, classify, and protect sensitive data.
 
@@ -614,7 +614,7 @@ real-time streaming.
 
 **Use Case:** Protecting sensitive customer data stored in S3.
 
-# AWS Network Firewall
+### AWS Network Firewall
 
 **Definition:** Managed firewall service for VPC.
 
@@ -623,7 +623,7 @@ real-time streaming.
 
 **Use Case:** Implementing network-level security controls for inbound and outbound traffic in a VPC.
 
-# AWS Resource Access Manager (AWS RAM)
+### AWS Resource Access Manager (AWS RAM)
 
 **Definition:** Service to share AWS resources across accounts.
 
@@ -633,7 +633,7 @@ real-time streaming.
 
 **Use Case:** Sharing Subnets with other AWS accounts within an organization.
 
-# AWS Secrets Manager
+### AWS Secrets Manager
 
 **Definition:** Manages, retrieves, and rotates database credentials, API keys, and other secrets.
 
@@ -643,7 +643,7 @@ real-time streaming.
 
 **Use Case:** Managing database credentials securely and automating their rotation.
 
-# AWS Security Hub
+### AWS Security Hub
 
 **Definition:** Comprehensive view of security alerts and security posture across AWS accounts.
 
@@ -651,7 +651,7 @@ real-time streaming.
 - Aggregates security findings from AWS services and partner tools.
 **Use Case:** Centralizing and prioritizing security alerts and compliance status.
 
-# AWS Shield
+### AWS Shield
 
 **Definition:** Managed Distributed Denial of Service (DDoS) protection service.
 **Key Facts:** 
@@ -659,7 +659,7 @@ real-time streaming.
 - Integrates with CloudFront and Route 53.
 **Use Case:** Protecting websites and applications against DDoS attacks.
 
-# AWS WAF
+### AWS WAF
 
 **Definition:** Web application firewall that helps protect web applications from common web exploits.
 **Key Facts:** 
@@ -668,7 +668,7 @@ real-time streaming.
 
 ## Serverless Services
 
-# AWS AppSync
+### AWS AppSync
 
 **Definition:** A managed service that uses GraphQL to make it easy to build collaborative mobile and web applications.
 **Key Facts:** 
@@ -676,7 +676,7 @@ real-time streaming.
 - Offline data access.
 **Use Case:** Building a real-time chat application that syncs across devices.
 
-# AWS Fargate
+### AWS Fargate
 
 **Definition:** A serverless compute engine for containers that works with both Amazon Elastic Container Service (ECS) and Amazon Elastic Kubernetes Service (EKS).
 **Key Facts:** 
@@ -684,7 +684,7 @@ real-time streaming.
 - Scales containers.
 **Use Case:** Running containerized applications without managing underlying infrastructure.
 
-# AWS Lambda
+### AWS Lambda
 
 **Definition:** A compute service that lets you run code without provisioning or managing servers.
 **Key Facts:** 
@@ -694,14 +694,14 @@ real-time streaming.
 
 ## Storage Services
 
-# AWS Backup
+### AWS Backup
 
 **Definition:** A centralized backup service that makes it easier to manage and automate backups across AWS services.
 **Key Facts:** 
 - Supports EBS, RDS, DynamoDB, EFS, and Storage Gateway.
 **Use Case:** Automating and centralizing backup of AWS cloud resources.
 
-# Amazon Elastic Block Store (Amazon EBS)
+### Amazon Elastic Block Store (Amazon EBS)
 
 **Definition:** Provides block-level storage volumes for use with EC2 instances.
 **Key Facts:** 
@@ -709,7 +709,7 @@ real-time streaming.
 - Snapshots for backup.
 **Use Case:** Providing persistent block storage for an EC2 instance running a database.
 
-# Amazon Elastic File System (Amazon EFS)
+### Amazon Elastic File System (Amazon EFS)
 
 **Definition:** A scalable, elastic, cloud-native file system for Linux-based workloads.
 **Key Facts:** 
@@ -717,14 +717,14 @@ real-time streaming.
 - Scales automatically.
 **Use Case:** Storing and sharing files across multiple EC2 instances.
 
-# Amazon FSx
+### Amazon FSx
 
 **Definition:** Provides fully managed third-party file systems with native compatibility and feature sets.
 **Key Facts:** 
 - Includes FSx for Windows File Server and FSx for Lustre.
 **Use Case:** Running a high-performance computing (HPC) workload that requires fast data processing.
 
-# Amazon S3
+### Amazon S3
 
 **Definition:** Object storage built to store and retrieve any amount of data from anywhere.
 **Key Facts:** 
@@ -734,7 +734,7 @@ real-time streaming.
 - Supports web-based applications.
 **Use Case:** Hosting static website content and media files.
 
-# Amazon S3 Glacier
+### Amazon S3 Glacier
 
 **Definition:** A secure, durable, and low-cost storage service for data archiving and long-term backup.
 **Key Facts:** 
@@ -742,7 +742,7 @@ real-time streaming.
 - Highly durable.
 **Use Case:** Archiving old but important data at low cost.
 
-# AWS Storage Gateway
+### AWS Storage Gateway
 
 **Definition:** A hybrid cloud storage service that provides on-premises access to virtually unlimited cloud storage.
 **Key Facts:** 
