@@ -1,77 +1,65 @@
 ### AWS Cost Management
 
-AWS Budgets
+#### AWS Budgets
+- **Definition**: Tool for setting custom budgets to manage AWS costs.
+- **Key Facts**: Alerts for cost thresholds; tracks AWS usage and costs.
+- **Use Case**: Monitoring monthly AWS spending to stay within budget.
 
-Definition: Tool for setting custom budgets to manage AWS costs.
-Key Facts: Alerts for cost thresholds; tracks AWS usage and costs.
-Use Case: Monitoring monthly AWS spending to stay within budget.
+#### AWS Cost and Usage Report
+- **Definition**: Detailed report of your AWS costs and usage.
+- **Key Facts**: Breaks down costs by service; can be exported to S3.
+- **Use Case**: Analyzing detailed cost data to identify cost-saving opportunities.
 
-AWS Cost and Usage Report
+#### AWS Cost Explorer
+- **Definition**: Tool for visualizing and managing AWS costs and usage over time.
+- **Key Facts**: Offers interactive charts; forecasts costs; includes RI and Savings Plans recommendations.
+- **Use Case**: Identifying trends in AWS spending and optimizing future spending.
 
-Definition: Detailed report of your AWS costs and usage.
-Key Facts: Breaks down costs by service; can be exported to S3.
-Use Case: Analyzing detailed cost data to identify cost-saving opportunities.
+#### Savings Plans
+- **Definition**: Flexible pricing model offering lower rates on specified usage in exchange for a commitment to a consistent amount of usage (measured in $/hour) for a 1 or 3 year period.
+- **Key Facts**: Applicable to EC2, Fargate, and Lambda; offers significant savings over on-demand pricing.
+- **Use Case**: Reducing costs for predictable and consistent compute usage.
 
-AWS Cost Explorer
+### Compute
 
-Definition: Tool for visualizing and managing AWS costs and usage over time.
-Key Facts: Offers interactive charts; forecasts costs; includes RI and Savings Plans recommendations.
-Use Case: Identifying trends in AWS spending and optimizing future spending.
+#### AWS Batch
+- **Definition**: Fully managed batch processing at any scale.
+- **Key Facts**: Automatically provisions resources; integrates with other AWS services.
+- **Use Case**: Running hundreds of thousands of batch computing jobs in the cloud.
 
-Savings Plans
+#### Amazon EC2
+- **Definition**: Resizable compute capacity in the cloud.
+- **Key Facts**: Offers various instance types; supports Windows and Linux; scalable.
+- **Use Case**: Hosting web applications on virtual servers.
 
-Definition: Flexible pricing model offering lower rates on specified usage in exchange for a commitment to a consistent amount of usage (measured in $/hour) for a 1 or 3 year period.
-Key Facts: Applicable to EC2, Fargate, and Lambda; offers significant savings over on-demand pricing.
-Use Case: Reducing costs for predictable and consistent compute usage.
-Compute
+#### Amazon EC2 Auto Scaling
+- **Definition**: Automatically adjusts EC2 capacity.
+- **Key Facts**: Maintains performance; optimizes costs; scales based on demand.
+- **Use Case**: Maintaining application availability during demand spikes.
 
-AWS Batch
+#### AWS Elastic Beanstalk
+- **Definition**: Easy-to-use service for deploying and scaling web applications and services.
+- **Key Facts**: Supports Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker; automatic scaling and load balancing.
+- **Use Case**: Quick deployment of a new web application.
 
-Definition: Fully managed batch processing at any scale.
-Key Facts: Automatically provisions resources; integrates with other AWS services.
-Use Case: Running hundreds of thousands of batch computing jobs in the cloud.
+#### AWS Outposts
+- **Definition**: Brings native AWS services, infrastructure, and operating models to virtually any data center, co-location space, or on-premises facility.
+- **Key Facts**: Fully managed; consistent hybrid experience.
+- **Use Case**: Running applications that require low latency access to on-premises systems.
 
-Amazon EC2
+#### AWS Serverless Application Repository
+- **Definition**: Managed repository for serverless applications.
+- **Key Facts**: Easy to deploy; supports AWS Lambda applications.
+- **Use Case**: Deploying serverless applications without needing to worry about infrastructure.
 
-Definition: Resizable compute capacity in the cloud.
-Key Facts: Offers various instance types; supports Windows and Linux; scalable.
-Use Case: Hosting web applications on virtual servers.
+#### VMware Cloud on AWS
+- **Definition**: Integrates VMware's software-defined data center software with AWS cloud infrastructure.
+- **Key Facts**: Supports existing VMware environments; scalable and secure.
+- **Use Case**: Extending on-premises VMware environments to AWS.
 
-Amazon EC2 Auto Scaling
-
-Definition: Automatically adjusts EC2 capacity.
-Key Facts: Maintains performance; optimizes costs; scales based on demand.
-Use Case: Maintaining application availability during demand spikes.
-
-AWS Elastic Beanstalk
-
-Definition: Easy-to-use service for deploying and scaling web applications and services.
-Key Facts: Supports Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker; automatic scaling and load balancing.
-Use Case: Quick deployment of a new web application.
-
-AWS Outposts
-
-Definition: Brings native AWS services, infrastructure, and operating models to virtually any data center, co-location space, or on-premises facility.
-Key Facts: Fully managed; consistent hybrid experience.
-Use Case: Running applications that require low latency access to on-premises systems.
-
-AWS Serverless Application Repository
-
-Definition: Managed repository for serverless applications.
-Key Facts: Easy to deploy; supports AWS Lambda applications.
-Use Case: Deploying serverless applications without needing to worry about infrastructure.
-
-VMware Cloud on AWS
-
-Definition: Integrates VMware's software-defined data center software with AWS cloud infrastructure.
-Key Facts: Supports existing VMware environments; scalable and secure.
-Use Case: Extending on-premises VMware environments to AWS.
-
-AWS Wavelength
-
-Definition: Extends AWS infrastructure to the edge of telecom networks.
-Key Facts: Minimizes latency; for applications requiring ultra-low latency.
-Use Case: Deploying applications that require ultra-low latency to mobile devices.
+#### AWS Wavelength
+- **Definition**: Extends AWS infrastructure to the edge of telecom networks.
+- **Key Facts**: Minimizes latency; for applications requiring ultra-low latency
 
 ### Containers
 
